@@ -1,0 +1,15 @@
+### OSX ###
+.DS_Store
+
+### Node ###
+node_modules/
+
+# conf
+conf/*.js
+!conf/index.js
+!conf/default.js
+
+.idea/
+
+*compiled.js
+*.js.map
