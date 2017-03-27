@@ -6,7 +6,7 @@
   "scripts": {
     "start": "`npm bin`/babel-watch app.js",
     "lint": "`npm bin`/eslint ./; exit 0",
-    "mocha": "`npm bin`/mocha -w --compilers js:babel-core/register --reporter nyan --recursive;exit 0;",
+    "mocha": "`npm bin`/mocha --compilers js:babel-core/register --reporter nyan --recursive;exit 0;",
     "test": "npm run lint && npm run mocha",
     "flow": "flow"
   },
